@@ -1,0 +1,39 @@
+Запущен по таймеру
+Building on master in workspace C:\Jenkins\workspace\HelloUser
+No credentials specified
+ > C:\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Git\cmd\git.exe config remote.origin.url https://github.com/YuraLu/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/YuraLu/helloci.git
+ > C:\Git\cmd\git.exe --version # timeout=10
+ > C:\Git\cmd\git.exe fetch --tags --force --progress https://github.com/YuraLu/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 9e92af8402713e5b82070244a65be3ecd4209899 (refs/remotes/origin/master)
+ > C:\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Git\cmd\git.exe checkout -f 9e92af8402713e5b82070244a65be3ecd4209899 # timeout=10
+Commit message: "Update test.txt"
+ > C:\Git\cmd\git.exe rev-list --no-walk 9e92af8402713e5b82070244a65be3ecd4209899 # timeout=10
+[HelloUser] $ cmd.exe /C "c:\apache-maven-3.6.0\bin\mvn.cmd -f java/pom.xml cobertura: cobertura && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.522 s
+[INFO] Finished at: 2019-02-13T18:59:46+03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4C3Q4FTHUtU6Mx2fTCT5mqPcO8t/CLWAKSfvUlcZSXryAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Could not find goal '' in plugin org.codehaus.mojo:cobertura-maven-plugin:2.7 among available goals check, check-integration-test, clean, cobertura, cobertura-integration-test, dump-datafile, help, instrument -> [Help 1]
+[8mha:////4C3Q4FTHUtU6Mx2fTCT5mqPcO8t/CLWAKSfvUlcZSXryAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4C3Q4FTHUtU6Mx2fTCT5mqPcO8t/CLWAKSfvUlcZSXryAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4C3Q4FTHUtU6Mx2fTCT5mqPcO8t/CLWAKSfvUlcZSXryAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4C3Q4FTHUtU6Mx2fTCT5mqPcO8t/CLWAKSfvUlcZSXryAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4C3Q4FTHUtU6Mx2fTCT5mqPcO8t/CLWAKSfvUlcZSXryAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4C3Q4FTHUtU6Mx2fTCT5mqPcO8t/CLWAKSfvUlcZSXryAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoNotFoundException
+Build step 'Вызвать цели Maven верхнего уровня  ' marked build as failure
+[Cobertura] Publishing Cobertura coverage report...
+
+[Cobertura] Publishing Cobertura coverage results...
+
+[Cobertura] Cobertura coverage report found.
+
+Finished: FAILURE

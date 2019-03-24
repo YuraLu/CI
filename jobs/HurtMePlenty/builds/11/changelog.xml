@@ -1,0 +1,9 @@
+commit caefa3407c717cdc772e380508f52041faabef81
+tree 975aefd5844e63bb8da55b17863e5b8e0642828f
+parent b49c6a6c6175c0733631b7466d405fa208721bb6
+author Yuri Lukashevich <yurikluk@gmail.com> 2019-02-07 19:23:26 +0300
+committer GitHub <noreply@github.com> 2019-02-07 19:23:26 +0300
+
+    Delete test_on_web
+
+:100644 000000 8b137891791fe96927ad78e64b0aad7bded08bdc 0000000000000000000000000000000000000000 D	test_on_web

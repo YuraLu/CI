@@ -1,0 +1,59 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildDetails plugin="git@4.0.0-rc">
+      <build>
+        <marked plugin="git-client@3.0.0-rc">
+          <sha1>f5674d74b6a790183a1626c13255fba77b463f50</sha1>
+          <branches class="list">
+            <hudson.plugins.git.Branch>
+              <sha1 reference="../../../sha1"/>
+              <name>refs/remotes/origin/master</name>
+            </hudson.plugins.git.Branch>
+          </branches>
+        </marked>
+        <revision reference="../marked"/>
+        <hudsonBuildNumber>7</hudsonBuildNumber>
+      </build>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/YuraLu/helloci.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildDetails>
+    <hudson.plugins.git.GitTagAction plugin="git@4.0.0-rc">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>C:\Jenkins\workspace\Github</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>2</queueId>
+  <timestamp>1549254567640</timestamp>
+  <startTime>1549254568136</startTime>
+  <result>FAILURE</result>
+  <duration>27057</duration>
+  <charset>windows-1251</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Jenkins\workspace\Github</workspace>
+  <hudsonVersion>2.150.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.0.0-rc">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>noreply</string>
+  </culprits>
+</build>

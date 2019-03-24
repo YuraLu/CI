@@ -1,0 +1,11 @@
+Started on 03.02.2019 22:22:42
+Started by event from 192.30.252.37 ? http://2d7674eb.ngrok.io:8080/github-webhook/ on Вс фев 03 22:22:42 MSK 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision ecae6ce400a784401c0422f19d45c49e449ba6bf (refs/remotes/origin/master)
+No credentials specified
+ > C:\Git\cmd\git.exe --version # timeout=10
+ > C:\Git\cmd\git.exe ls-remote -h https://github.com/YuraLu/helloci.git # timeout=10
+Found 7 remote heads on https://github.com/YuraLu/helloci.git
+[poll] Latest remote head revision on refs/heads/master is: f5674d74b6a790183a1626c13255fba77b463f50
+Done. Took 2,7 секунды
+Changes found
